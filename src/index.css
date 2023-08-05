@@ -1,4 +1,4 @@
-body {
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +10,55 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+} */
+
+.im{
+  width:100rem;
+  position:relative;
+  animation-name:lock;
+  animation-duration:2s;
+  animation-iteration-count: 1;
+}
+@keyframes lock{
+  from{
+    width:10rem;
+  }
+  to{
+    width:50rem;
+  }
+}
+.custom{
+  margin-top:5rem;
+  margin-bottom:2rem;
+}
+.my-footer{
+  background: linear-gradient(30deg,#091e34 0%,#091e34 100%);
+}
+.text{
+  color: #fff;
+}
+.mod{
+  font-size:1.5rem;
+}
+.top{
+  display: flex;
+    
+    height:37rem;
+    width:100rem;
+    margin:auto;
+    justify-content: space-around;
+    margin-bottom: 3rem;
+}
+
+.bottom{
+  display: flex;
+  height:35rem;
+  width:100rem;
+  margin:auto;
+  justify-content: space-around;
+  margin-bottom: 5rem;
+}
+
+.feed{
+  background-color: rgb(204, 214, 214);
 }
